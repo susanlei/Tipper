@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         
         //changes whatever the value in tip is by using $\(tip)
         tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.22f", total)
+        totalLabel.text = String(format: "$%.2f", total)
     }
     
     
